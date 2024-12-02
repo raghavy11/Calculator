@@ -1,0 +1,87 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://plus.unsplash.com/premium_photo-1686052365877-1a1884d227b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFja2dyb3VuZCUyMGltYWdlcyUyMGZvciUyMGNhbGN1bGF0b3IlMjBpbiUyMGRhcmt8ZW58MHx8MHx8fDA%3D'); /* Unique background */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Calculator container */
+#calculator {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Title and tagline */
+#title {
+    font-size: 30px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#tagline {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Button styling */
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f4f4f9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.operator {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #ff5f51;
+}
+
+button:focus {
+    outline: none;
+}
